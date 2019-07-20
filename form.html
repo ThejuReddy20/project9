@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> form page</title>
+    <link rel="stylesheet" href="form.css">
+    <meta name="viewport" content="width=divice-width,intial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+
+      <!-- personal info -->
+      <div class="details">
+      <h1>Personal Details</h1>
+      <!-- <label for="name"> -->
+      <input type="text" name="name" id="name" placeholder="enter name"><br>
+      <!-- </label> -->
+      <!-- <label for="phno"> -->
+      <input type="number" name="phno" id="phno" placeholder="enter phno"><br>
+      <!-- </label> -->
+      <!-- <label for="email"> -->
+      <input type="email" name="email" id="email" placeholder="enter email"><br>
+      <!-- </label> -->
+      <input type="text" name="address" id="address" placeholder="enter address"><br>
+      <!-- </label> -->
+      </div>
+      <!-- educational details -->
+      <div class="details">
+        <h1>Graduation Details</h1>
+        <label for="ginstitute">
+          <input type="text" name="ginstitute" id="ginstitute" placeholder="enter institute name">
+        </label>
+        <!-- branch -->
+        <input type="text" name="gbranch" id="gbranch" placeholder="enter branch">
+        <!-- year of passing -->
+        <input type="text" name="gyear" id="gyear" placeholder="enter year of passout">
+        <input type="text" name="precentage" id="gper"placeholder="enter percentage">
+
+      </div>
+      <div class="details">
+        <h1>Intermediate Details</h1>
+        <label for="iinstitute">
+          <input type="text" name="iinstitute" id="iinstitute" placeholder="enter college name">
+        </label>
+        <!-- branch -->
+      <input type="text" name="ibranch" id="ibranch" placeholder="enter stream(mpc,bipc,etc)">
+        <!-- year of passing -->
+        <input type="text" name="iyear" id="iyear" placeholder="enter year of passout">
+        <input type="text" name="precentage" id="iper"placeholder="enter percentage">
+      </div>
+      <div class="details">
+        <h1>10th details</h1>
+        <label for="sinstitute">
+          <input type="text" name="sinstitute" id="sinstitute" placeholder="enter school name">
+        </label>
+        <!-- branch -->
+        <input type="text" name="sbranch" id="sbranch" placeholder="enter board (icse,cbsc,state,etc)">
+        <input type="text" name="syear" id="syear" placeholder="enter year of passout">
+        <input type="text" name="precentage" id="sper"placeholder="enter percentage">
+      </div>
+      <div class="skills">
+        <h1>Skills</h1>
+        <input type="text" name="skills" id="skills"placeholder="enter skills">
+
+</div>
+<div class="career">
+  <h1>Hobbies</h1>
+  <label for="career">
+  <input type="text" name="career" id="career"placeholder="Hobbies">
+  </label>
+</div>
+</div>
+    <button type="button" name="button" id="button" onclick="submitData()">submit</button>
+
+  </body>
+<script type="text/javascript"src="main.js">
+</script>
+</html>

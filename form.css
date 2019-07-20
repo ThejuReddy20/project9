@@ -1,0 +1,35 @@
+body{
+  background: #FAE5D3  ;
+}
+
+.parent{
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+}
+.career,.skills{
+  width: 90%;
+  border: 2px solid black;
+  margin: 2%;
+  padding: 3%;
+  text-align:center;
+  background: #F2F3F4 ;
+}
+.details{
+  width: 40%;
+  margin: 2%;
+  padding: 2%;
+  border: 2px solid black;
+  background: #FCF3CF  ;
+}
+
+
+#button{
+  font-weight: bold;
+  font-size:20px;
+}
+input,select{
+  width: 80%;
+  margin: 2%;
+}
